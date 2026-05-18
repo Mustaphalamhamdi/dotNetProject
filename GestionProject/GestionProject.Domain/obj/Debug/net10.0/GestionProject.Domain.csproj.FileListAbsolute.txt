@@ -1,0 +1,11 @@
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Domain/bin/Debug/net10.0/GestionProject.Domain.deps.json
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Domain/bin/Debug/net10.0/GestionProject.Domain.dll
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Domain/bin/Debug/net10.0/GestionProject.Domain.pdb
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Domain/obj/Debug/net10.0/GestionProject.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Domain/obj/Debug/net10.0/GestionProject.Domain.AssemblyInfoInputs.cache
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Domain/obj/Debug/net10.0/GestionProject.Domain.AssemblyInfo.cs
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Domain/obj/Debug/net10.0/GestionProject.Domain.csproj.CoreCompileInputs.cache
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Domain/obj/Debug/net10.0/GestionProject.Domain.dll
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Domain/obj/Debug/net10.0/refint/GestionProject.Domain.dll
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Domain/obj/Debug/net10.0/GestionProject.Domain.pdb
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Domain/obj/Debug/net10.0/ref/GestionProject.Domain.dll

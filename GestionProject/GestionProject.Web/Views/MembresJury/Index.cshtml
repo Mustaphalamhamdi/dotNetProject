@@ -1,0 +1,35 @@
+@model IEnumerable<GestionProject.Application.DTOs.MembreJuryDto>
+
+@{
+    ViewData["Title"] = "Membres du Jury";
+}
+
+<h1>Membres du Jury</h1>
+
+<p><a asp-action="Create" class="btn btn-primary">Ajouter un membre</a></p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Email</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Nom</td>
+                <td>@item.Prenom</td>
+                <td>@item.Email</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Détails</a>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Modifier</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Supprimer</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

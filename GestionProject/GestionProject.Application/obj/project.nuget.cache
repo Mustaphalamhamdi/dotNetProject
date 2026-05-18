@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "U8tY+72UPZ0=",
+  "success": true,
+  "projectFilePath": "/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Application/GestionProject.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/mustapha/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/mustapha/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "/Users/mustapha/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",
+    "/Users/mustapha/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.11.0/fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
+    "/Users/mustapha/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.0-preview.3.25171.5/microsoft.extensions.dependencyinjection.abstractions.10.0.0-preview.3.25171.5.nupkg.sha512",
+    "/Users/mustapha/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/mustapha/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'AutoMapper' 12.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
+      "projectPath": "/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Application/GestionProject.Application.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Application/GestionProject.Application.csproj",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+@model GestionProject.Application.DTOs.UpdateEvaluationDto
+
+@{
+    ViewData["Title"] = "Modifier l'Évaluation";
+}
+
+<h1>Modifier l'Évaluation</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+
+            <div class="form-group mb-3">
+                <label asp-for="Note" class="form-label">Note (0-20)</label>
+                <input asp-for="Note" class="form-control" type="number" step="0.5" min="0" max="20" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Commentaire" class="form-label"></label>
+                <textarea asp-for="Commentaire" class="form-control" rows="4"></textarea>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="SoutenanceId" class="form-label">Soutenance</label>
+                <select asp-for="SoutenanceId" asp-items="ViewBag.Soutenances" class="form-select"></select>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="MembreJuryId" class="form-label">Membre du Jury</label>
+                <select asp-for="MembreJuryId" asp-items="ViewBag.MembresJury" class="form-select"></select>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Enregistrer" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Annuler</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

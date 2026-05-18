@@ -1,0 +1,25 @@
+@model GestionProject.Application.DTOs.SeanceDto
+
+@{
+    ViewData["Title"] = "Détails de la Séance";
+}
+
+<h1>Séance du @Model.Date.ToString("dd/MM/yyyy")</h1>
+
+<div class="card">
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">Date</dt><dd class="col-sm-9">@Model.Date.ToString("dd/MM/yyyy HH:mm")</dd>
+            <dt class="col-sm-3">Type</dt><dd class="col-sm-9">@Model.Type</dd>
+            <dt class="col-sm-3">Projet</dt><dd class="col-sm-9">@Model.ProjetTitre</dd>
+            <dt class="col-sm-3">Encadrant</dt><dd class="col-sm-9">@Model.EncadrantNom</dd>
+            <dt class="col-sm-3">Notes</dt><dd class="col-sm-9">@(Model.Notes ?? "Aucune")</dd>
+            <dt class="col-sm-3">Commentaires</dt><dd class="col-sm-9">@(Model.Commentaires ?? "Aucun")</dd>
+        </dl>
+    </div>
+</div>
+
+<div class="mt-3">
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Modifier</a>
+    <a asp-action="Index" class="btn btn-secondary">Retour</a>
+</div>

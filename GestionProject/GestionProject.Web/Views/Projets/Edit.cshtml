@@ -1,0 +1,58 @@
+@model GestionProject.Application.DTOs.UpdateProjetDto
+
+@{
+    ViewData["Title"] = "Modifier le Projet";
+}
+
+<h1>Modifier le Projet</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+
+            <div class="form-group mb-3">
+                <label asp-for="Titre" class="form-label"></label>
+                <input asp-for="Titre" class="form-control" />
+                <span asp-validation-for="Titre" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Type" class="form-label"></label>
+                <select asp-for="Type" asp-items="ViewBag.Types" class="form-select"></select>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Statut" class="form-label"></label>
+                <select asp-for="Statut" asp-items="ViewBag.Statuts" class="form-select"></select>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="EtudiantId" class="form-label">Étudiant</label>
+                <select asp-for="EtudiantId" asp-items="ViewBag.Etudiants" class="form-select"></select>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="EncadrantAcademiqueId" class="form-label">Encadrant Académique</label>
+                <select asp-for="EncadrantAcademiqueId" asp-items="ViewBag.EncadrantsAcademiques" class="form-select"></select>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="EncadrantProfessionnelId" class="form-label">Encadrant Professionnel</label>
+                <select asp-for="EncadrantProfessionnelId" asp-items="ViewBag.EncadrantsProfessionnels" class="form-select">
+                    <option value="">-- Aucun --</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Enregistrer" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Annuler</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,35 @@
+@model IEnumerable<GestionProject.Application.DTOs.RapportDto>
+
+@{
+    ViewData["Title"] = "Rapports";
+}
+
+<h1>Liste des Rapports</h1>
+
+<p><a asp-action="Create" class="btn btn-primary">Soumettre un rapport</a></p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Version</th>
+            <th>Date de Soumission</th>
+            <th>Projet</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Version</td>
+                <td>@item.DateSoumission.ToString("dd/MM/yyyy")</td>
+                <td>@item.ProjetTitre</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Détails</a>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Modifier</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Supprimer</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,40 @@
+@model GestionProject.Application.DTOs.UpdateFeedbackDto
+
+@{
+    ViewData["Title"] = "Modifier le Feedback";
+}
+
+<h1>Modifier le Feedback</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+
+            <div class="form-group mb-3">
+                <label asp-for="Contenu" class="form-label"></label>
+                <textarea asp-for="Contenu" class="form-control" rows="5"></textarea>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="RapportId" class="form-label">Rapport</label>
+                <select asp-for="RapportId" asp-items="ViewBag.Rapports" class="form-select"></select>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="EncadrantId" class="form-label">Encadrant</label>
+                <select asp-for="EncadrantId" asp-items="ViewBag.Encadrants" class="form-select"></select>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Enregistrer" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Annuler</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

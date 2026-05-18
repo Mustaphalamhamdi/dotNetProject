@@ -1,0 +1,247 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFramework = net10.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.RootNamespace = GestionProject.Web
+build_property.RootNamespace = GestionProject.Web
+build_property.ProjectDir = /Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Encadrants/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW5jYWRyYW50cy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Encadrants/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW5jYWRyYW50cy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Encadrants/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW5jYWRyYW50cy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Encadrants/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW5jYWRyYW50cy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Encadrants/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW5jYWRyYW50cy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Etudiants/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXR1ZGlhbnRzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Etudiants/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXR1ZGlhbnRzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Etudiants/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXR1ZGlhbnRzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Etudiants/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXR1ZGlhbnRzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Etudiants/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXR1ZGlhbnRzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Evaluations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXZhbHVhdGlvbnMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Evaluations/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXZhbHVhdGlvbnMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Evaluations/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXZhbHVhdGlvbnMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Evaluations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXZhbHVhdGlvbnMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Evaluations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXZhbHVhdGlvbnMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Feedbacks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmVlZGJhY2tzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Feedbacks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmVlZGJhY2tzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Feedbacks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmVlZGJhY2tzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Feedbacks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmVlZGJhY2tzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Feedbacks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmVlZGJhY2tzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/MembresJury/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVtYnJlc0p1cnkvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/MembresJury/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVtYnJlc0p1cnkvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/MembresJury/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVtYnJlc0p1cnkvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/MembresJury/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVtYnJlc0p1cnkvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/MembresJury/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVtYnJlc0p1cnkvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Projets/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvamV0cy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Projets/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvamV0cy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Projets/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvamV0cy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Projets/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvamV0cy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Projets/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvamV0cy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Rapports/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmFwcG9ydHMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Rapports/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmFwcG9ydHMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Rapports/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmFwcG9ydHMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Rapports/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmFwcG9ydHMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Rapports/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmFwcG9ydHMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Seances/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VhbmNlcy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Seances/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VhbmNlcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Seances/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VhbmNlcy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Seances/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VhbmNlcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Seances/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VhbmNlcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Soutenances/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU291dGVuYW5jZXMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Soutenances/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU291dGVuYW5jZXMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Soutenances/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU291dGVuYW5jZXMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Soutenances/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU291dGVuYW5jZXMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Soutenances/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU291dGVuYW5jZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2oyxx6bb90

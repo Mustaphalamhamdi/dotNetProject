@@ -1,0 +1,39 @@
+@model IEnumerable<GestionProject.Application.DTOs.EncadrantDto>
+
+@{
+    ViewData["Title"] = "Encadrants";
+}
+
+<h1>Liste des Encadrants</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Ajouter un encadrant</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Email</th>
+            <th>Type</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Nom</td>
+                <td>@item.Prenom</td>
+                <td>@item.Email</td>
+                <td>@item.Type</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Détails</a>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Modifier</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Supprimer</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

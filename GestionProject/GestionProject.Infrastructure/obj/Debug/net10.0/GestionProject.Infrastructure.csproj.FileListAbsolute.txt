@@ -1,0 +1,17 @@
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Infrastructure/obj/Debug/net10.0/GestionProject.Infrastructure.csproj.AssemblyReference.cache
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Infrastructure/bin/Debug/net10.0/GestionProject.Infrastructure.deps.json
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Infrastructure/bin/Debug/net10.0/GestionProject.Infrastructure.runtimeconfig.json
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Infrastructure/bin/Debug/net10.0/GestionProject.Infrastructure.dll
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Infrastructure/bin/Debug/net10.0/GestionProject.Infrastructure.pdb
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Infrastructure/bin/Debug/net10.0/GestionProject.Domain.dll
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Infrastructure/bin/Debug/net10.0/GestionProject.Domain.pdb
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Infrastructure/obj/Debug/net10.0/GestionProject.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Infrastructure/obj/Debug/net10.0/GestionProject.Infrastructure.AssemblyInfoInputs.cache
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Infrastructure/obj/Debug/net10.0/GestionProject.Infrastructure.AssemblyInfo.cs
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Infrastructure/obj/Debug/net10.0/GestionProject.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Infrastructure/obj/Debug/net10.0/GestionP.74447F47.Up2Date
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Infrastructure/obj/Debug/net10.0/GestionProject.Infrastructure.dll
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Infrastructure/obj/Debug/net10.0/refint/GestionProject.Infrastructure.dll
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Infrastructure/obj/Debug/net10.0/GestionProject.Infrastructure.pdb
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Infrastructure/obj/Debug/net10.0/GestionProject.Infrastructure.genruntimeconfig.cache
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Infrastructure/obj/Debug/net10.0/ref/GestionProject.Infrastructure.dll

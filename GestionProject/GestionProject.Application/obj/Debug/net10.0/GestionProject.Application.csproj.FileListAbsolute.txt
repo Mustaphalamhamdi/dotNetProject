@@ -1,0 +1,15 @@
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Application/bin/Debug/net10.0/GestionProject.Application.deps.json
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Application/bin/Debug/net10.0/GestionProject.Application.dll
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Application/bin/Debug/net10.0/GestionProject.Application.pdb
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Application/bin/Debug/net10.0/GestionProject.Domain.dll
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Application/bin/Debug/net10.0/GestionProject.Domain.pdb
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Application/obj/Debug/net10.0/GestionProject.Application.csproj.AssemblyReference.cache
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Application/obj/Debug/net10.0/GestionProject.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Application/obj/Debug/net10.0/GestionProject.Application.AssemblyInfoInputs.cache
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Application/obj/Debug/net10.0/GestionProject.Application.AssemblyInfo.cs
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Application/obj/Debug/net10.0/GestionProject.Application.csproj.CoreCompileInputs.cache
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Application/obj/Debug/net10.0/GestionP.6D510B05.Up2Date
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Application/obj/Debug/net10.0/GestionProject.Application.dll
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Application/obj/Debug/net10.0/refint/GestionProject.Application.dll
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Application/obj/Debug/net10.0/GestionProject.Application.pdb
+/Users/mustapha/Desktop/DOTNETProject/GestionProject/GestionProject.Application/obj/Debug/net10.0/ref/GestionProject.Application.dll

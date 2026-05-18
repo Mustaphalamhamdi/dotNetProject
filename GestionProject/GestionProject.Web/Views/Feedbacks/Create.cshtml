@@ -1,0 +1,44 @@
+@model GestionProject.Application.DTOs.CreateFeedbackDto
+
+@{
+    ViewData["Title"] = "Ajouter un Feedback";
+}
+
+<h1>Ajouter un Feedback</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Contenu" class="form-label"></label>
+                <textarea asp-for="Contenu" class="form-control" rows="5"></textarea>
+                <span asp-validation-for="Contenu" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="RapportId" class="form-label">Rapport</label>
+                <select asp-for="RapportId" asp-items="ViewBag.Rapports" class="form-select">
+                    <option value="">-- Sélectionner --</option>
+                </select>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="EncadrantId" class="form-label">Encadrant</label>
+                <select asp-for="EncadrantId" asp-items="ViewBag.Encadrants" class="form-select">
+                    <option value="">-- Sélectionner --</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Soumettre" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Annuler</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

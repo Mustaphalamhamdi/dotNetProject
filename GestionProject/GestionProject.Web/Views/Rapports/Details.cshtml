@@ -1,0 +1,23 @@
+@model GestionProject.Application.DTOs.RapportDto
+
+@{
+    ViewData["Title"] = "Détails du Rapport";
+}
+
+<h1>Rapport - @Model.Version</h1>
+
+<div class="card">
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">Version</dt><dd class="col-sm-9">@Model.Version</dd>
+            <dt class="col-sm-3">Date de Soumission</dt><dd class="col-sm-9">@Model.DateSoumission.ToString("dd/MM/yyyy HH:mm")</dd>
+            <dt class="col-sm-3">Projet</dt><dd class="col-sm-9">@Model.ProjetTitre</dd>
+            <dt class="col-sm-3">Fichier</dt><dd class="col-sm-9">@Model.CheminFichier</dd>
+        </dl>
+    </div>
+</div>
+
+<div class="mt-3">
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Modifier</a>
+    <a asp-action="Index" class="btn btn-secondary">Retour</a>
+</div>

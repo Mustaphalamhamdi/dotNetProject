@@ -1,0 +1,50 @@
+@model GestionProject.Application.DTOs.UpdateSoutenanceDto
+
+@{
+    ViewData["Title"] = "Modifier la Soutenance";
+}
+
+<h1>Modifier la Soutenance</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+
+            <div class="form-group mb-3">
+                <label asp-for="Date" class="form-label"></label>
+                <input asp-for="Date" class="form-control" type="datetime-local" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Lieu" class="form-label"></label>
+                <input asp-for="Lieu" class="form-control" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="NoteFinale" class="form-label">Note Finale</label>
+                <input asp-for="NoteFinale" class="form-control" type="number" step="0.01" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="ProjetId" class="form-label">Projet</label>
+                <select asp-for="ProjetId" asp-items="ViewBag.Projets" class="form-select"></select>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="MembresJuryIds" class="form-label">Membres du Jury</label>
+                <select asp-for="MembresJuryIds" asp-items="ViewBag.MembresJury" class="form-select" multiple></select>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Enregistrer" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Annuler</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

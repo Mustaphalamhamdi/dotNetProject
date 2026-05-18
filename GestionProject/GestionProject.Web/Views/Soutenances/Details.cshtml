@@ -1,0 +1,31 @@
+@model GestionProject.Application.DTOs.SoutenanceDto
+
+@{
+    ViewData["Title"] = "Détails de la Soutenance";
+}
+
+<h1>Soutenance - @Model.ProjetTitre</h1>
+
+<div class="card">
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">Date</dt><dd class="col-sm-9">@Model.Date.ToString("dd/MM/yyyy HH:mm")</dd>
+            <dt class="col-sm-3">Lieu</dt><dd class="col-sm-9">@Model.Lieu</dd>
+            <dt class="col-sm-3">Note Finale</dt><dd class="col-sm-9">@Model.NoteFinale</dd>
+            <dt class="col-sm-3">Projet</dt><dd class="col-sm-9">@Model.ProjetTitre</dd>
+        </dl>
+
+        <h5 class="mt-3">Membres du Jury</h5>
+        <ul>
+            @foreach (var membre in Model.MembresJury)
+            {
+                <li>@membre.Nom @membre.Prenom</li>
+            }
+        </ul>
+    </div>
+</div>
+
+<div class="mt-3">
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Modifier</a>
+    <a asp-action="Index" class="btn btn-secondary">Retour</a>
+</div>
